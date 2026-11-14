@@ -1,0 +1,27 @@
+# 构建产物
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.o
+*.obj
+*.a
+*.so
+*.exe
+*.out
+
+# 数据库
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# 大文件
+*.tar.zst
+*.tar.gz
+*.zip
+
+# IDE
+.vscode/
+.idea/
+ChatServer/ChatServer.conf
